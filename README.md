@@ -1,14 +1,16 @@
 # Manhattan Building Age 3D Atlas
 
-An interactive 3D visualization of Manhattan buildings by age, height, neighborhood, and property characteristics.
+I want to build a 3D map of Manhattan where you can see buildings by construction year and height. I think it would be interesting to explore the city's history that way.
 
-## Product idea
+This is still an early idea. The repository currently contains the project brief and data-source notes; there is no map, data pipeline, or runnable application yet.
 
-Explore Manhattan as a living architectural timeline. Buildings are extruded in 3D and conditionally colored by construction year, making it easy to see where the city is oldest, newest, tallest, and most transformed.
+## What I want to build
+
+The idea is to extrude building footprints by height and color them by construction year, with filters and a detail view for individual buildings.
 
 The first version stays deliberately narrow: **show Manhattan building footprints in 3D, color them by construction year, and let users inspect and filter them.**
 
-## MVP
+## Planned first version
 
 - Render Manhattan building footprints in 3D.
 - Extrude buildings using roof height where available.
@@ -20,13 +22,13 @@ The first version stays deliberately narrow: **show Manhattan building footprint
 
 ## Initial data
 
-The primary source is NYC Open Data's current **Building Footprints** dataset. It includes polygon geometry plus fields such as BIN, BBL, construction year, ground elevation, and roof height.
+The planned primary source is NYC Open Data's current **Building Footprints** dataset. It includes polygon geometry plus fields such as BIN, BBL, construction year, ground elevation, and roof height.
 
 See [`docs/DATA_SOURCES.md`](docs/DATA_SOURCES.md) for the source plan and data-quality notes.
 
 ## Planned evolution
 
-After the MVP works well, likely extensions include:
+If the first version works well, possible additions include:
 
 1. Building class, stories, zoning, landmark status, and property characteristics.
 2. Neighborhood and construction-era summaries.
