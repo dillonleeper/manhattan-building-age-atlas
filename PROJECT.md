@@ -4,13 +4,15 @@
 
 Manhattan Building Age 3D Atlas
 
-## One-line product definition
+## The idea
 
 A playful, explorable 3D map of Manhattan where every building is extruded by height and colored by construction year so users can visually explore how old or new the built environment is.
 
-## Why this project exists
+## Why I want to build it
 
-This is a portfolio project intended to demonstrate geospatial data engineering, spatial joins, public-data integration, 3D visualization, frontend performance, and analytical product design. It should feel fun enough that a user wants to explore it even without a specific research question.
+I want to see how the age of Manhattan's buildings looks on a map. Building this would give me a reason to learn more about geospatial data, spatial joins, public datasets, and 3D visualization. I want it to be interesting to explore even without a specific research question.
+
+This document is a plan, not a list of completed features. The data spike and application implementation are still ahead.
 
 ## Product principles
 
@@ -19,7 +21,7 @@ This is a portfolio project intended to demonstrate geospatial data engineering,
 3. **Fast first interaction.** A user should see Manhattan quickly rather than wait for a massive all-NYC payload.
 4. **Progressive complexity.** Build a compelling narrow MVP before adding zoning, permits, landmarks, or historical layers.
 5. **No fake precision.** Do not infer construction years, heights, or neighborhood membership without an explicit and documented method.
-6. **Portfolio-quality engineering.** Prefer reproducible transformations, validation, tests, and clear architecture over one-off notebook logic.
+6. **Reproducible work.** Prefer reproducible transformations, validation, tests, and clear architecture over one-off notebook logic.
 
 ## MVP scope
 
@@ -137,7 +139,7 @@ The color ramp should make old-vs-new immediately legible and remain distinguish
 
 ## Milestones
 
-### Milestone 1 — Data spike
+### Milestone 1 â€” Data spike
 
 - confirm official source dataset(s)
 - download/query Manhattan subset
@@ -145,7 +147,7 @@ The color ramp should make old-vs-new immediately legible and remain distinguish
 - quantify missing construction years/heights
 - produce a small sample artifact
 
-### Milestone 2 — First 3D Manhattan render
+### Milestone 2 â€” First 3D Manhattan render
 
 - scaffold frontend
 - load a representative Manhattan subset
@@ -153,7 +155,7 @@ The color ramp should make old-vs-new immediately legible and remain distinguish
 - extrude by height
 - add basic age coloring
 
-### Milestone 3 — MVP interactions
+### Milestone 3 â€” MVP interactions
 
 - full Manhattan data strategy
 - click/select building
@@ -162,7 +164,7 @@ The color ramp should make old-vs-new immediately legible and remain distinguish
 - year filter
 - neighborhood filter
 
-### Milestone 4 — Reliability/performance
+### Milestone 4 â€” Reliability/performance
 
 - optimize payload/rendering
 - add validation/tests
@@ -170,7 +172,7 @@ The color ramp should make old-vs-new immediately legible and remain distinguish
 - responsive behavior
 - document architecture and reproducibility
 
-### Milestone 5 — Portfolio polish
+### Milestone 5 â€” Portfolio polish
 
 - refined visual design
 - screenshots/demo
